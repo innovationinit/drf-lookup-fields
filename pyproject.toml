@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "drf-lookup-fields"
-version = "1.0.0"
+version = "1.1.0"
 description = "A package supplying tools for custom foreign-key fields lookup in drf-created WebAPI."
 authors = ["IIIT <github@iiit.pl>"]
 readme = "README.md"
@@ -17,7 +17,7 @@ include = [
 
 [tool.poetry.dependencies]
 python = ">=3.7,<3.10"
-Django = ">=2.0,<3.0"
+Django = ">=2.0,<4.0"
 djangorestframework = ">=3.3.2"
 
 [tool.poetry.dev-dependencies]
